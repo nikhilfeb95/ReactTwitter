@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Explore page</title>
+        <link href="explore.css" rel="stylesheet"/>
+        <!-- <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class = "wd-screen">
+        <div class = "wd-body">
+            <div class = "wd-search-body">
+                <div class = "wd-search-input">
+                    <input class="wd-search wd" type="text" placeholder="Search twitter">
+                    <i class="fas fa-search"></i>
+                </div>
+                <a href = "explore-settings.html" class = "wd-explore-settings"><i class="fas fa-cog fa-lg"></i></a>
+                <br><br>
+                <a href = "#" class = "wd-hyperLink wd-first-hyperlink" >For You</a>
+                <a href = "#" class = "wd-hyperLink">Trending</a>
+                <a href = "#" class = "wd-hyperLink">COVID-19</a>
+                <a href = "#" class = "wd-hyperLink">News</a>
+                <a href = "#" class = "wd-hyperLink">Sports</a>
+                <a href = "#" class = "wd-hyperLink">Entertainment</a>
+            </div>
+            
+            <div class = "wd-posts">
+
+                <!--Trending posts-->
+
+                <div class = "wd-trending-posts">
+                    <div>
+                        <span class = "wd-trending-header" style="padding: 7px 0px 7px 0px;">Trending in Science</span>
+                        <i class="fas fa-ellipsis-h wd-trending-ellipse"></i>
+                    </div>
+                    <div>
+                        <span class = "wd-trending-post-name">Starship</span>
+                        <i class="fas fa-ellipsis-h wd-trending-ellipse-post"></i>
+                    </div>
+                    <span class = "wd-trending-header">55.K Tweets</span>
+                </div>
+                <div class = "wd-trending-posts">
+                    <div>
+                        <span class = "wd-trending-header">Sports Trending</span>
+                    </div>
+                    <div>
+                        <span class = "wd-trending-post-name">Joe Rogan</span>
+                        <i class="fas fa-ellipsis-h wd-trending-ellipse-post"
+                        style="float: right; padding-right: 20px;"></i>
+                    </div>
+                    <span class = "wd-trending-header">5,218 Tweets</span>
+                </div> 
+
+                <!--First news stuff-->
+
+                <div class = "wd-news-post">
+                    <div class = "wd-test wd-post-1">
+                        <div class = "wd-news">
+                            <div>
+                                <img src="../Images/New York Times.jpeg" class="wd-post-small-image">
+                                <span class = "wd-trending-post-news">The New York Times</span>
+                                <svg viewBox="0 0 24 24" aria-hidden="true" 
+                                        class="wd-twitter-verified-icon">
+                                        <g>
+                                            <path d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                    <span class = "wd-trending-header"> &#183 Yesterday</span>
+                                </div>
+                                <div>
+                                     <p class = "wd-news-headline">CNN's Cuomo Conundrum : A star anchor with a brother in trouble</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class = "wd-image-block" style="display: inline-block;">
+                        <img src="../Images/bros.jpeg" class = "wd-post-image-big">
+                    </div>
+                </div>
+
+                <!--Second news stuff-->
+
+                <div class = "wd-news-post">
+                    <div class = "wd-test">
+                        <div class = "wd-news">
+                            <div>
+                                <span class = "wd-trending-header" style="padding: 7px 0px 7px 0px;">COVID-19</span>
+                                    <span class = "wd-trending-header"> &#183 LIVE</span>
+                                    <p class = "wd-news-headline">COVID-19 : News and updates for Massachusets</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "wd-image-block" style="display: inline-block;">
+                        <img src="../Images/Mass.jpeg" class = "wd-post-image-big">
+                    </div>
+                </div>
+
+                <!--Third news stuff-->
+
+                <div class = "wd-news-post">
+                    <div class = "wd-test">
+                        <div class = "wd-news">
+                            <div>
+                                <img src="../Images/bloomberg.jpeg" class="wd-post-small-image">
+                                <span class = "wd-trending-post-news">Bloomberg Opinion</span>
+                                <svg viewBox="0 0 24 24" aria-hidden="true" 
+                                        class="wd-twitter-verified-icon">
+                                        <g>
+                                            <path d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                    <span class = "wd-trending-header"> &#183 Yesterday</span>
+                                </div>
+                                <div>
+                                    <p class = "wd-news-headline">Think about getting a booster ? Read this first.</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class = "wd-image-block" style="display: inline-block;">
+                        <img src="../Images/vaccine.jpeg" class = "wd-post-image-big">
+                    </div>
+                </div>
+
+                <!--Trending posts-->
+
+                <div class = "wd-trending-posts">
+                    <div>
+                        <span class = "wd-trending-header" style="padding: 7px 0px 7px 0px;">Trending in United States</span>
+                    </div>
+                    <div>
+                        <span class = "wd-trending-post-name">Wonder Bread</span>
+                        <i class="fas fa-ellipsis-h wd-trending-ellipse-post"></i>
+                    </div>
+                    <span class = "wd-trending-header">1,259 Tweets</span>
+                </div>
+                      
+            </div>
+        </div>
+            
+        </div>
+    </body>
+</html>
