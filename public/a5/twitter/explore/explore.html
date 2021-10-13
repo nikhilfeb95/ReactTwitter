@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive Explore Page.</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+
+        <link href="explore.css" rel="stylesheet"/>
+    </head>
+    <body class = "bg-black">
+        <!--Main container for the twitter body-->
+        <div class="container">
+            <div class="row mt-2">
+                <div class = "col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <div class = "list-group">
+                        <a class="list-group-item wd-left-logos" href = "#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="list-group-item wd-left-logos" href = "#">
+                            <i class="fas fa-home"></i><span class = "ps-2 d-none d-xl-inline d-xxl-inline">Home</span>
+                        </a>
+                        <a class="list-group-item wd-left-logos active" href = "#">
+                            <strong><i class="fas fa-hashtag"></i><span class = "ps-2 d-none d-xl-inline d-xxl-inline">Explore</span></strong>
+                        </a>
+                        <a class="list-group-item wd-left-logos" href = "#">
+                            <i class="fas fa-bell"></i><span class = "ps-2 d-none d-xl-inline d-xxl-inline">Notifications</span>
+                        </a>
+                        <a class="list-group-item wd-left-logos" href = "#">
+                            <i class="fas fa-envelope"></i><span class = "ps-2 d-none d-xl-inline d-xxl-inline">Messages</span>
+                        </a>
+                        <a class="list-group-item wd-left-logos" href = "#">
+                            <i class="fas fa-bookmark"></i><span class = "ps-2 d-none d-xl-inline d-xxl-inline">Bookmarks</span>
+                        </a>
+                        <a class="list-group-item wd-left-logos" href = "#">
+                            <i class="fas fa-list-ul"></i><span class = "ps-2 d-none d-xl-inline d-xxl-inline">Lists</span>
+                        </a>
+                        <a class="list-group-item wd-left-logos" href = "#">
+                            <i class="fas fa-user"></i><span class = "ps-2 d-none d-xl-inline d-xxl-inline">Profile</span>
+                        </a>
+                        <a class="list-group-item wd-left-logos" href = "#">
+                            <i class="fas fa-ellipsis-h"></i><span class = "ps-2 d-none d-xl-inline d-xxl-inline">More</span>
+                        </a>
+                        <button type="button" class="btn btn-lg btn-primary rounded-pill mt-2 d-xxl-block d-xl-block d-lg-block d-md-block d-sm-none"><strong>Tweet</strong></button>
+                        <button type="button" class="btn btn-lg btn-primary rounded-pill mt-2 d-none d-sm-block d-xxl-none d-xl-none d-lg-none d-md-none"><i class="fab fa-twitter"></i></button>
+                    </div>
+                        
+                    
+                </div>
+                <div class = "col-xxl-6 col-xl-6 col-lg-6 mb-3 col-md-10 col-sm-10 col-xs-10 border border-dark border-right-1 border-left-1 border-top-0 border-bottom-0 ms-0 ps-0 me-0 pe-0" >
+                    <div class = "wd-search-and-tabs">
+                        <div class="row">
+                            <div class = "col-11 wd-search-bar">
+                                <i class="fas fa-search ms-3"></i>
+                                <input type="text" class="form-control rounded-pill bg-dark ms-3" placeholder="Search Twitter">  
+                            </div>
+                            <div class="col-1 pt-1">
+                                <i class="fas fa-cog mt-2 " style="color: white;"></i>
+                            </div>
+                        </div>
+                        <div class="row pe-5">
+                            <ul class="nav nav-tabs mt-2 ms-3 ">
+                                <li class="nav-item">
+                                    <a class="nav-link active wd-tabs" href="#">For You</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link wd-tabs" href="#">Trending</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link wd-tabs" href="#">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link wd-tabs" href="#">Sports</a>
+                                </li>
+                                <li class="nav-item d-none d-xxl-inline d-xl-inline">
+                                    <a class="nav-link wd-tabs" href="#" tabindex="-1">Entertainment</a>
+                                </li>
+                            </ul> 
+                        </div>
+                    </div>
+                    
+                    <div class = "row mt-3 ms-0 ps-0">
+                        <div class = "row wd-image-container ms-0 ps-0">
+                            <img src="../Images/ferrari.jpg" class="img-fluid p-0 m-0">
+                            <div class="bottom-left"><p class = "wd-image-title">Ferrari win in Monza.</p></div>
+                        </div>
+                        <div class = "row m-0 p-0">
+                            <ul class="list-group">
+                                <li class="list-group-item bg-black">
+                                    <div class = "row" >
+                                        <div class = "col-10 wd-title-white">
+                                            <div class = "row">
+                                                <span class = "wd-title">Web Development</span>
+                                            </div>
+                                            <div class = "row">
+                                                <span><h6 class = "wd-title-header d-inline">
+                                                  <strong>ReactJS</strong>
+                                                </h6>
+                                                <i class="fas fa-check-circle text-light d-lg-inline"></i>
+                                                <span class="wd-title d-inline">-2h</span>
+                                                </span>
+                                            </div>
+                                            <div class="row">
+                                                <h6>
+                                                    <strong>
+                                                    React.js is a component based front end library that makes it very easy to build</strong>
+                                                </h6>
+                                            </div>
+                                        </div>
+                                        <div class = "col-2">
+                                            <img src= "../Images/react.png" class="img-fluid rounded">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item bg-black">
+                                    <div class = "row">
+                                        <div class = "col-10 wd-title-white">
+                                            <div class = "row">
+                                                <span><h6 class = "wd-title-header d-inline">
+                                                  <strong>JavaScript</strong>
+                                                </h6>
+                                                <i class="fas fa-check-circle text-light d-lg-inline"></i>
+                                                <span class="wd-title d-inline">-2h</span>
+                                                </span>
+                                            </div>
+                                            <div class="row">
+                                                <h6>
+                                                    <strong>
+                                                        JavaScript is programming language that can run on browsers as well as desktops.
+                                                    </strong>
+                                                </h6>
+                                            </div>
+                                            <div class = "row">
+                                                <span class = "wd-title">123K Tweets</span>
+                                            </div>
+                                        </div>
+                                        <div class = "col-2">
+                                            <img src= "../Images/JavaScript.png" class="img-fluid rounded" style="background-color: black;">
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li class="list-group-item bg-black">
+                                    <div class = "row">
+                                        <div class = "col-10 wd-title-white">
+                                            <div class = "row">
+                                                <div class = "row">
+                                                    <span class = "wd-title">Web Development</span>
+                                                </div>
+                                                <span><h6 class = "wd-title-header d-inline">
+                                                  <strong>jQuery</strong>
+                                                </h6>
+                                                </span>
+                                            </div>
+                                            <div class = "row">
+                                                <span class = "wd-title">123K Tweets</span>
+                                            </div>
+                                        </div>
+                                        <div class = "col-2">
+                                            <img src= "../Images/JQuery.png" class="img-fluid rounded" style="background-color: black;">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item bg-black">
+                                    <div class = "row">
+                                        <div class = "col-10 wd-title-white">
+                                            <div class = "row">
+                                                <div class = "row">
+                                                    <span class = "wd-title">Web Development</span>
+                                                </div>
+                                                <span><h6 class = "wd-title-header d-inline">
+                                                    <strong>NodeJS</strong>
+                                                  </h6>
+                                                  <i class="fas fa-check-circle text-light d-lg-inline"></i>
+                                                  <span class="wd-title d-inline">-2h</span>
+                                                  </span>
+                                            </div>
+                                            <div class = "row">
+                                                <span class = "wd-title">123K Tweets</span>
+                                            </div>
+                                        </div>
+                                        <div class = "col-2">
+                                            <img src= "../Images/NodeJS.png" class="img-fluid rounded" style="background-color: black;">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul> 
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class = "col-xxl-4 col-xl-4 col-lg-4 d-none d-lg-block d-xl-block d-xxl-block col-md-0 col-sm-0 col-xs-0 wd-right-corner">
+                    <ul class="list-group wd-right-corner">
+                        <li class="list-group-item bg-dark wd-left-logos"><strong>Who to follow</strong></li>
+                        <li class="list-group-item bg-dark wd-left-logos">
+                            <div class = "row align-items-center">
+                                <div class = "col-2 me-0 pe-0">
+                                    <img src="../Images/java.png" class="img-fluid rounded-circle
+                                    img-circle wd-follow-icons">
+                                </div>
+                                <div class = "col-6 ps-0 flex-wrap">
+                                    <div class="row">
+                                        <span><h6 class = "wd-title-header d-inline">
+                                            <strong>Java</strong>
+                                          </h6>
+                                          <i class="fas fa-check-circle text-light d-lg-inline"></i>
+                                          </span>  
+                                    </div>
+                                    <div class = "row">
+                                        <span class="wd-title">@Java</span>
+                                    </div>
+                                      
+                                </div>
+                                <div class = "col-4 align-items-center align-middle">
+                                    <button class="btn btn-light rounded-pill"><strong>Follow</strong></button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item bg-dark wd-left-logos">
+                            <div class = "row align-items-center">
+                                <div class = "col-2 me-0 pe-0">
+                                    <img src="../Images/relativitySpace.png" class="img-fluid rounded-circle wd-follow-icons 
+                                    img-circle">
+                                </div>
+
+                                <div class = "col-6 ps-0">
+                                    <div class="row">
+                                        <span class = "text-nowrap"><h6 class = "wd-title-header d-inline">
+                                            <strong>Relativity Space</strong>
+                                          </h6>
+                                          <i class="fas fa-check-circle text-light d-lg-inline"></i>
+                                          </span>  
+                                    </div>
+                                    <div class = "row">
+                                        <span class = "wd-title">@relativitySpace</span>
+                                    </div>
+                                </div>
+                                <div class = "col-4 align-items-center">
+                                    <button class="btn btn-light rounded-pill"><strong>Follow</strong></button>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="list-group-item bg-dark wd-left-logos ">
+                            <div class = "row align-items-center">
+                                <div class = "col-2 me-0 pe-0">
+                                    <img src="../Images/VirginGalactic.png" class="img-fluid rounded-circle wd-follow-icons 
+                                    img-circle">
+                                </div>
+                                <div class = "col-6 ps-0">
+                                    <div class="row">
+                                        <span><h6 class = "wd-title-header d-inline">
+                                            <strong>Virgin Galactic</strong>
+                                          </h6>
+                                          <i class="fas fa-check-circle text-light d-lg-inline"></i>
+                                          </span>  
+                                    </div>
+                                    <div class = "row">
+                                        <span class = "wd-title">@virginGalactic</span>
+                                    </div>
+                                </div>
+                                <div class = "col-4 align-items-center">
+                                    <button class="btn btn-light rounded-pill"><strong>Follow</strong></button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item bg-dark wd-left-logos">
+                            <div class = "row align-items-center">
+                                <div class = "col-2 me-0 pe-0">
+                                    <img src="../Images/NASA.png" class="img-fluid rounded-circle wd-follow-icons 
+                                    img-circle">
+                                </div>
+                                <div class = "col-6 ps-0">
+                                    <div class="row">
+                                        <span><h6 class = "wd-title-header d-inline">
+                                            <strong>NASA</strong>
+                                          </h6>
+                                          <i class="fas fa-check-circle text-light d-lg-inline"></i>
+                                          </span>  
+                                    </div>
+                                    <div class = "row">
+                                        <span class = "wd-title">@NASA</span>
+                                    </div>
+                                </div>
+                                <div class = "col-4 align-items-center">
+                                    <button class="btn btn-light rounded-pill"><strong>Follow</strong></button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item bg-dark wd-left-logos">
+                            <div class = "row align-items-center">
+                                <div class = "col-2 me-0 pe-0">
+                                    <img src="../Images/Tesla_logo.png" class="img-fluid rounded-circle wd-follow-icons 
+                                    img-circle">
+                                </div>
+                                <div class = "col-6 ps-0">
+                                    <div class="row pb-0 mb-0">
+                                        <span><h6 class = "wd-title-header d-inline">
+                                            <strong>Tesla</strong>
+                                          </h6>
+                                          <i class="fas fa-check-circle text-light d-lg-inline"></i>
+                                          </span>  
+                                    </div>
+                                    <div class = "row pt-0 mt-0">
+                                        <span class = "wd-title">@Tesla</span>
+                                    </div>
+                                </div>
+                                <div class = "col-4 align-items-center">
+                                    <button class="btn btn-light rounded-pill"><strong>Follow</strong></button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+    </body>
+</html>

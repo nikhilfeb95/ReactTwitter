@@ -1,0 +1,106 @@
+.wd-title{
+    color: darkgray;
+    font-weight: 500;
+    font-size: small;
+}
+
+.btn{
+    white-space: normal;
+}
+
+input{
+    text-indent: 25px;
+}
+
+.wd-search-bar{
+    position: relative;
+}
+.wd-search-bar i{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: gray;
+}
+
+.wd-follow-icons{
+    height: 48px;
+}
+
+.wd-left-logos{
+    color: white;
+    background-color: black;
+}
+
+.wd-right-logos{
+    color: white;
+    background-color: black;
+}
+
+.form-control{
+    border: 0;
+}
+
+.nav-tabs{
+    border-bottom: 0em;
+}
+
+.wd-tabs{
+    color : darkgray;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.wd-list-border{
+    border-style: solid;
+    border-color: darkgray;
+}
+
+.wd-title-white{
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+  }
+
+.wd-image-title{
+    font-size: xx-large;
+}
+
+.wd-image-container {
+position: relative;
+text-align: left;
+color: white;
+}
+
+.list-group-item.active{
+    background-color: rgb(30,30,30);
+    border-radius: 500px;
+    border-width: 0;
+    border-color: rgb(30,30,30);
+}
+
+.nav-tabs .nav-link.active{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgb(29, 161, 242);
+    border-bottom-width: 3px;
+    background-color: black;
+    color: white;
+}
+
+.wd-right-corner{
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+
+.list-group > .btn
+{
+    background-color : rgb(29,161,242);
+}
