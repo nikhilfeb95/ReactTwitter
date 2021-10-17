@@ -1,0 +1,156 @@
+.wd-header{
+    margin-left: 16px;
+}
+
+.wd-border {
+    border-style: solid;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    border-color: lightgrey;
+    border-width: thin;
+}
+.wd-pad {
+    padding: 6px;
+}
+
+.wd-main-image img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#handle {
+    font-size: 13px;
+    color: lightgray;
+    padding-top: 2px;
+    margin-top: 0;
+}
+
+hr{
+    margin: 12px;
+    size: 1px;
+    color: lightgray;
+    background-color: lightgray;
+}
+
+.wd-col-twentyPercent  img {
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.wd-row{
+    clear: both;
+}
+
+.wd-col-twentyPercent {
+    float: left;
+}
+
+.wd-col-eightyPercent {
+    padding-left: 12px;
+    float: left;
+}
+
+.wd-author p{
+    margin: 0px;
+    padding-right: 4px;
+}
+
+#author-name {
+    color: white;
+    float: left;
+    font-size: 15px;
+}
+
+#author-handle {
+    float: left;
+    font-size: 15px;
+}
+
+#author-date-post{
+    float: left;
+    font-size: 15px;
+}
+
+.wd-author {
+    clear: both;
+}
+
+.wd-content {
+    max-width: 506px;
+    color: white;
+    font-size: 15px;
+    margin-right: 16px;
+}
+
+.wd-content p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 12px;
+    margin-right: 16px;
+}
+
+.wd-sub-content{
+    max-width: 480px;
+    margin:0;
+    padding: 12px;
+    border-color: lightgray;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.wd-sub-content p {
+    font-size: 15px;
+    color: lightgray;
+    margin: 0;
+    padding: 0;
+    max-width: 478px;
+
+}
+
+#sub-title {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.wd-single-response > a:link {
+    color: white;
+}
+.wd-single-response > a:visited{
+    color: white;
+}
+
+.wd-post-link{
+    color: white;
+    text-decoration: none;
+}
+/* 
+.wd-single-response {
+    float: left;
+} */
+.wd-single-response p {
+    padding: 12px;
+    margin: 0;
+}
+.wd-para-col {
+    padding-top: 15px;
+}
+
+.wd-single-response > a{
+    text-decoration: none;
+}
+
+.wd-status-link{
+    color: rgb(29, 161, 242);
+    text-decoration-color: rgb(29, 161, 242);
+}
+

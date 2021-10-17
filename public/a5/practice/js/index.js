@@ -252,8 +252,7 @@ const init = () => {
     const child = parent.find("#child-2");
     child.css('background-color', 'blue');
 
-    const handleClick =
-    () => console.log('Handle click');
+    const handleClick = () => console.log('Handle click');
     const clickable = $('.clickable');
     clickable.click(handleClick);
 
