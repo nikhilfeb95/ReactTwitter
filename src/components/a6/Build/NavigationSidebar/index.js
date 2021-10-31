@@ -7,7 +7,7 @@ const NavigationSidebar = (
     }) => {
     return(
         <div classNameName = "list-group">
-            <a className="list-group-item wd-left-logos" href = "#">
+            <a className="list-group-item wd-left-logos" href = "/#">
                 <i className="fab fa-twitter"></i>
             </a>
             <Link to ="/a6/twitter/home" className={`list-group-item wd-left-logos ${active === 'home' ? 'active' : '' }`} 
@@ -18,22 +18,22 @@ const NavigationSidebar = (
             href = "../ExploreScreen/explore.html">
                 <strong><i className="fas fa-hashtag"></i><span className = "ps-2 d-none d-xl-inline d-xxl-inline">Explore</span></strong>
             </Link>
-            <a className="list-group-item wd-left-logos" href = "#">
+            <a className="list-group-item wd-left-logos" href = "/#">
                 <i className="fas fa-bell"></i><span className = "ps-2 d-none d-xl-inline d-xxl-inline">Notifications</span>
             </a>
-            <a className="list-group-item wd-left-logos" href = "#">
+            <a className="list-group-item wd-left-logos" href = "/#">
                 <i className="fas fa-envelope"></i><span className = "ps-2 d-none d-xl-inline d-xxl-inline">Messages</span>
             </a>
-            <a className="list-group-item wd-left-logos" href = "#">
+            <a className="list-group-item wd-left-logos" href = "/#">
                 <i className="fas fa-bookmark"></i><span className = "ps-2 d-none d-xl-inline d-xxl-inline">Bookmarks</span>
             </a>
-            <a className="list-group-item wd-left-logos" href = "#">
+            <a className="list-group-item wd-left-logos" href = "/#">
                 <i className="fas fa-list-ul"></i><span className = "ps-2 d-none d-xl-inline d-xxl-inline">Lists</span>
             </a>
-            <a className="list-group-item wd-left-logos" href = "#">
+            <a className="list-group-item wd-left-logos" href = "/#">
                 <i className="fas fa-user"></i><span className = "ps-2 d-none d-xl-inline d-xxl-inline">Profile</span>
             </a>
-            <a className="list-group-item wd-left-logos" href = "#">
+            <a className="list-group-item wd-left-logos" href = "/#">
                 <i className="fas fa-ellipsis-h"></i><span className = "ps-2 d-none d-xl-inline d-xxl-inline">More</span>
             </a>
             <div className="d-grid mt-2">

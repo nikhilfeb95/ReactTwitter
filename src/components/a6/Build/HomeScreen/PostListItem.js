@@ -14,7 +14,7 @@ const  PostListItem = (props) => {
                     <p id="author-date-post">{post.time}</p>
                 </div><br/>
                 <div className="wd-content">
-                    <p> {post.postPreStatus} <a href="#" className = "wd-status-link">{post.statusLink}</a> {post.postPostStatus}</p>
+                    <p> {post.postPreStatus} <a href="/#" className = "wd-status-link">{post.statusLink}</a> {post.postPostStatus}</p>
                 </div>
                 <div className="wd-border wd-main-image">
                     <div>
@@ -24,7 +24,7 @@ const  PostListItem = (props) => {
                 </div>
                 <div className="row wd-post-response">
                     <div className="col-3 wd-single-response">
-                        <a href="#">
+                        <a href="/#">
                             <div className = "row">
                                 <div className = "col-3">
                                     <i className="far fa-comment wd-para-col"></i>
@@ -36,7 +36,7 @@ const  PostListItem = (props) => {
                         </a>
                     </div>
                     <div className= "col-3 wd-single-response">
-                        <a href="#">
+                        <a href="/#">
                             <div className = "row">
                                 <div className = "col-3">
                                     <i className="fa fa-retweet wd-para-col"></i>
@@ -48,7 +48,7 @@ const  PostListItem = (props) => {
                         </a>
                     </div>
                     <div className="col-3 wd-single-response">
-                        <a href="#">
+                        <a href="/#">
                         <div className = "row">
                             <div className = "col-3">
                                 <i className="fa fa-heart wd-para-col"></i>
@@ -60,7 +60,7 @@ const  PostListItem = (props) => {
                         </a>
                     </div>
                     <div className="col-3 wd-single-response">
-                        <a href="#">
+                        <a href="/#">
                             <span className = "p-0">
                                 <i className="fas fa-upload wd-para-col"></i>
                             </span>
