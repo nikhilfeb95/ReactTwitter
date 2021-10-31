@@ -37,7 +37,7 @@ const ExploreComponent = () => {
 
             <div className = "row mt-3 ms-0 ps-0">
                     <div className = "row wd-image-container ms-0 ps-0 wd-img">
-                        <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg?w=1390&crop=1" className="img-fluid p-0 m-0" />
+                        <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg?w=1390&crop=1" className="img-fluid p-0 m-0" alt="Explore page image" />
                         <div className="bottom-left"><p className = "wd-image-title">Space X's Starship</p></div>
                     </div>
                     <PostSummaryList/>

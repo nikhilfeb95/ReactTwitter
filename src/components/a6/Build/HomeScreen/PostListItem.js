@@ -5,7 +5,7 @@ const  PostListItem = (props) => {
     return(         
         <div className="wd-row">
             <div className="wd-col-twentyPercent col-2 ps-2">
-                <img src={post.profilePic} className="wd-col-twentyPercent"/>
+                <img src={post.profilePic} className="wd-col-twentyPercent" alt = "user avatar"/>
             </div>
             <div className="wd-col-eightyPercent col-10">
                 <div className="wd-author">
@@ -18,7 +18,7 @@ const  PostListItem = (props) => {
                 </div>
                 <div className="wd-border wd-main-image">
                     <div>
-                        <img src={post.postImage} className="img-fluid" />
+                        <img src={post.postImage} className="img-fluid" alt = "post image"/>
                     </div>
                     <HideLink element = {post}/>
                 </div>

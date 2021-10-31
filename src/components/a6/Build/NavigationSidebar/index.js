@@ -10,12 +10,10 @@ const NavigationSidebar = (
             <a className="list-group-item wd-left-logos" href = "/#">
                 <i className="fab fa-twitter"></i>
             </a>
-            <Link to ="/a6/twitter/home" className={`list-group-item wd-left-logos ${active === 'home' ? 'active' : '' }`} 
-             href = "../HomeScreen/index.html">
+            <Link to ="/a6/twitter/home" className={`list-group-item wd-left-logos ${active === 'home' ? 'active' : '' }`} >
                 <i className="fas fa-home"></i><span className = "ps-2 d-none d-xl-inline d-xxl-inline">Home</span>
             </Link>
-            <Link to = "/a6/twitter/explore" className={`list-group-item wd-left-logos ${active === 'explore' ? 'active' : '' }`} 
-            href = "../ExploreScreen/explore.html">
+            <Link to = "/a6/twitter/explore" className={`list-group-item wd-left-logos ${active === 'explore' ? 'active' : '' }`} >
                 <strong><i className="fas fa-hashtag"></i><span className = "ps-2 d-none d-xl-inline d-xxl-inline">Explore</span></strong>
             </Link>
             <a className="list-group-item wd-left-logos" href = "/#">

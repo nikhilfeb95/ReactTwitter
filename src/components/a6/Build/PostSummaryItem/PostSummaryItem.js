@@ -33,7 +33,7 @@ const PostSummaryItem = (  {
                     </div>
                 </div>
                 <div className = "col-2">
-                    <img src= {post.image} className="img-fluid rounded"/>
+                    <img src= {post.image} className="img-fluid rounded" alt = "post list image"/>
                 </div>
             </div>
         </li>
