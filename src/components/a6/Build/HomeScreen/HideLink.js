@@ -5,7 +5,7 @@ const HideLink = (props) => {
         <div className="wd-pad">
             <p id="sub-title">{element.postHeading}</p>
             <p>{element.postDescription}</p>
-            <a className = "wd-post-link"><i className="fas fa-link"></i>
+            <a className = "wd-post-link" href = "/#"><i className="fas fa-link"></i>
                 {element.link}
             </a>
         </div>
