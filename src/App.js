@@ -14,12 +14,12 @@ function App() {
           <Link to = "/a7/practice">
             Link to A7 
           </Link>
-          <Route path={"/a7"}>
-              <A7/>
-          </Route> 
           <Link to = "/a6/practice">
             Link to A6
           </Link>
+          <Route path={"/a7"}>
+              <A7/>
+          </Route> 
           <Route path={"/a6"}>
               <A6/>
           </Route>

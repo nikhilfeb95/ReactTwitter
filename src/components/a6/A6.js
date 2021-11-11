@@ -1,7 +1,7 @@
 import Practice from './Practice/index';
 import {BrowserRouter, Route} from "react-router-dom";
 import Build from './Build/index';
-
+import HelloWorld from './HelloWorld';
 const A6 = () => {
   return (
     <BrowserRouter>
@@ -11,6 +11,10 @@ const A6 = () => {
 
         <Route path="/a6/twitter" >
                 <Build/>
+        </Route>
+
+        <Route path = "/a6/hello">
+            <HelloWorld/>
         </Route>
     </BrowserRouter>
   );
