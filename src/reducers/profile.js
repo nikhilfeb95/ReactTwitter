@@ -1,4 +1,3 @@
-
 const profileData = {
     firstName: 'Nikhil',    
     lastName: 'Mollay',   
@@ -13,9 +12,12 @@ const profileData = {
 } 
 
 const profile = (state = profileData, action) =>{
-    console.log(action.newInput)
-    console.log(state)
-    switch(action.type){
+    switch(action.type){ 
+        case 'fetch-profile-data':
+            const profileVal = Array.isArray(action.profileData) ? action.profileData[0] : action.profileData
+            return (profileVal)
+            break;
+
         case 'save-information':
             const newProfileData = {};
             if(action.newInput.name){
