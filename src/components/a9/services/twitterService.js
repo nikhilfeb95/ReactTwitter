@@ -1,16 +1,10 @@
-const TWEET_API = 'https://web-dev-node-nikhil.herokuapp.com/api/tweets';
+const TWEET_API = 'http://localhost:4000/api/tweets';
 
-export const fetchAllTweets = (dispatch) =>
+export const fetchAllTweets = () =>
     fetch(TWEET_API)
-        .then(response => response.json())
-        .then(tweets =>
-            dispatch({
-                type: 'fetch-all-tweets',
-                tweets
-            })
-        );
+        .then(response => response.json());
 
-export const postNewTweet = (dispatch, newTweet) =>{
+export const postNewTweet = (dispatch, newTweet) =>
 fetch(TWEET_API, {
     method: 'POST',
     body: JSON.stringify(newTweet),
@@ -25,24 +19,29 @@ fetch(TWEET_API, {
             tweet
         })
     );
-}
+    
 export const deleteTweet = (dispatch, tweet) =>{
-    console.log(tweet._id)
+    console.log("In delete!!")
+    console.log(tweet._id);
     fetch(`${TWEET_API}/${tweet._id}`, {
         method: 'DELETE'
     }).then(response => dispatch({
-        type: 'delete-tweet',
+        type: 'fetch-all-tweets',
         tweet
     }));
 }
 
-export const likeTweet = (dispatch, tweet) =>
+export const likeTweet = (dispatch, tweet) =>{
     fetch(`${TWEET_API}/${tweet._id}/like`, {
-        method: 'PUT'
+        method: 'PUT',
+        body : JSON.stringify(tweet),
+        headers: {
+            'content-type': 'application/json'
+        }
     })
     .then(response =>
         dispatch({
-            type: 'like-tweet',
+            type: 'fetch-all-tweets',
             tweet
-}));
-
+    }));
+}
